@@ -1,0 +1,11 @@
+name: recommended_lints
+description: Recommended lint rules.
+version: 1.0.0
+homepage: https://www.leventkantaroglu.com
+github: 
+
+environment:
+  sdk: '>=2.16.2 <3.0.0'
+
+dev_dependencies:
+  dart_code_metrics: ^4.15.2

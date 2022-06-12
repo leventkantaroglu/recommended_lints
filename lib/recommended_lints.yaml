@@ -1,0 +1,63 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    use_decorated_box: false
+    sort_pub_dependencies: true
+    unnecessary_parenthesis: true
+    unnecessary_statements: true
+    literal_only_boolean_expressions: true
+    avoid_multiple_declarations_per_line: true
+    avoid_unused_constructor_parameters: true
+    deprecated_consistency: true
+    directives_ordering: true
+    no_leading_underscores_for_local_identifiers: true
+    parameter_assignments: true
+    sized_box_shrink_expand: true
+    sort_unnamed_constructors_first: true
+    unnecessary_late: true
+    unnecessary_null_aware_assignments: true
+    use_is_even_rather_than_modulo: true
+    use_string_buffers: true
+    use_to_and_as_if_applicable: true
+    lines_longer_than_80_chars: true
+    type_annotate_public_apis: true
+    flutter_style_todos: true
+    require_trailing_commas: true
+    sort_child_properties_last: true
+    
+analyzer:
+  plugins:
+    - dart_code_metrics
+  errors:
+    undefined_prefixed_name: ignore
+
+dart_code_metrics:
+
+  rules:
+    # Common Rules
+    - avoid-collection-methods-with-unrelated-types
+    - avoid-missing-enum-constant-in-map
+    - avoid-nested-conditional-expressions:
+        acceptable-level: 2
+    - avoid-throw-in-catch-block
+    - avoid-unnecessary-type-assertions
+    - avoid-unnecessary-type-casts
+    - avoid-unrelated-type-assertions
+    - binary-expression-operand-order
+    - double-literal-format:
+        severity: warning
+    - no-equal-then-else
+    - prefer-last
+    # Flutter rules
+    - always-remove-listener
+    - avoid-border-all
+    - avoid-unnecessary-setstate
+    - avoid-wrapping-in-padding
+    - prefer-const-border-radius
+    - prefer-extracting-callbacks
+    - prefer-match-file-name
+    - prefer-single-widget-per-file:
+        ignore-private-widgets: true
+    
+    
