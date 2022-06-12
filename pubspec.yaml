@@ -1,6 +1,6 @@
 name: recommended_lints
 description: Recommended lint rules.
-version: 1.0.2
+version: 1.0.3
 homepage: https://www.leventkantaroglu.com
 repository: https://github.com/leventkantaroglu/recommended_lints
 
@@ -9,3 +9,4 @@ environment:
 
 dev_dependencies:
   dart_code_metrics: ^4.15.2
+  flutter_lints: ^1.0.4

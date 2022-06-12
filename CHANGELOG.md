@@ -1,3 +1,7 @@
+## 1.0.3
+
+- Add flutter_lints dependency
+
 ## 1.0.2
 
 - Add repository link
