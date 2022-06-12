@@ -7,6 +7,6 @@ repository: https://github.com/leventkantaroglu/recommended_lints
 environment:
   sdk: '>=2.16.2 <3.0.0'
 
-dev_dependencies:
+dependencies:
   dart_code_metrics: ^4.15.2
   flutter_lints: ^1.0.4
